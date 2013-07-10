@@ -1,7 +1,5 @@
 
 
-mybuffer = new Buffer(60);
-
 var express = require('express');
 
 var app = express.createServer(express.logger());
@@ -16,8 +14,3 @@ app.listen(port, function() {
 });
 
 
-fs.readFileSync('index.html', mybuffer);
-
-buffer.toString("utf-8")
-
-console.log(mybuffer.toString('utf8', 0, len));
