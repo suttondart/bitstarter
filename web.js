@@ -1,6 +1,6 @@
 
 
-var mybuffer = buffer(60);
+mybuffer = new Buffer(60);
 
 var express = require('express');
 
