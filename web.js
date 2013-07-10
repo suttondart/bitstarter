@@ -8,9 +8,8 @@ var buf = new Buffer('test');
 
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2!');
-  response.send(" bytes: " + buf.toString('utf8'));
-
+  response.send( buf.toString('utf8'));
+  
 });
 
 var port = process.env.PORT || 5000;
